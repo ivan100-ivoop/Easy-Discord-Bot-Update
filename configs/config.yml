@@ -1,0 +1,17 @@
+settings:
+    notify: false
+    textcommand_prefix: "!"
+    token: "MTMwNDQzNDE5MzQ4MDI4NjI0OA.GR27Un.too8KTvpXjlQaMkTGpeWjVqiO_wBZzXSMYBGzc" 
+    guilds:
+        "1304434443301421077":
+            name: "Макси"
+            log_channel: "1304490899832832010"
+            owners: 
+            - "763821526461972480"
+            roles:
+                staff: 
+                - "1304435308862902434"
+                blacklisted: []
+    client:
+        id: "1304434193480286248"
+        secret: "d5ZemDFZldl9AoRGQ34Pr3q9wWmsxRTq"

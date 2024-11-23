@@ -1,0 +1,33 @@
+enabled: false
+logging: false
+
+settings:
+  updateTime: 30000
+  log_channel: "1304490899832832010"
+  title: "MaxGaming"
+  timestamp: true
+  footer: true
+  web: "https://panel.maxgaming.bg"
+  footer_icon: true
+
+present:
+  host: "ʜᴏꜱᴛ:"
+  status: "ꜱᴛᴀᴛᴜꜱ:"
+  timer: "ᴜᴘᴅᴀᴛɪɴɢ ᴇᴠᴇʀʏ %s"
+  inline: false
+  state:
+    online: 🟢 ᴏɴʟɪɴᴇ
+    offline: 🔴 ᴏꜰꜰʟɪɴᴇ
+    error: 🟡 ᴜɴᴋɴᴏᴡɴ
+
+list:
+  Panel:
+    url: "https://panel.maxgaming.bg"
+    expect: 200
+    enabled: false
+    web: false
+  Gaming1:
+    url: "https://g1.maxgaming.bg:25589"
+    expect: 401
+    enabled: false
+    web: false

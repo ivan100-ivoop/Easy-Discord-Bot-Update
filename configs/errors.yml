@@ -1,0 +1,6 @@
+not_found: "This command not found!"
+blacklisted: "Your are not allow to use any command!"
+only_owner: "Only Owner allow to use this command!"
+notify:
+  title: ":no_entry: Error!!"
+  message: ""

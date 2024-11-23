@@ -1,0 +1,10 @@
+enabled: true
+rate_channel: "1304490899832832010"
+show_content: true
+
+footer: 
+  enabled: true
+  timestamp: true
+  icon: true
+  text: true
+

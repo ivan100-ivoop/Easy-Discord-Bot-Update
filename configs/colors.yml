@@ -1,0 +1,5 @@
+error: "#ff3333"
+warning: "#ff9933"
+info: "#99ff33"
+success: "#66ff33"
+default: "#33ff33"
