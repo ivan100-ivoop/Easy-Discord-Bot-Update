@@ -9,7 +9,7 @@ module.exports = {
         const colors = client.get("colors", Type.File);
         const { helping } = client.get("messages", Type.File);
         const info = `
-none
+/ping - test bot response time.
 `
 
         return await message.reply({ embeds: [new EmbedBuilder()
