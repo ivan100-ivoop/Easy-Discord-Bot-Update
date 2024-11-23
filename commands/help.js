@@ -3,21 +3,19 @@ const { EmbedBuilder } = require('discord.js');
 
 module.exports = { 
     name: "help",
-    type: "text",
     description: "Help Commands!",
-    run: async (client, message, args) => {
+    run: async (interaction, client) => {
         const colors = client.get("colors", Type.File);
-        const { helping } = client.get("messages", Type.File);
         const info = `
 /ping - test bot response time.
 `
 
-        return await message.reply({ embeds: [new EmbedBuilder()
+        return await interaction.reply({ embeds: [new EmbedBuilder()
             .setTitle(`**Commands**`)
             .setColor(colors.success)
             .setDescription(`\`\`\`\n${info}\`\`\``)
             .setTimestamp()
-            .setFooter({ text: helping.footer, iconURL: `https://cdn.discordapp.com/avatars/${client.user.id}/${client.user.avatar}.png` })
+            .setFooter({ text: client.user.displayName, iconURL: `https://cdn.discordapp.com/avatars/${client.user.id}/${client.user.avatar}.png` })
         ]});
     }
 };
