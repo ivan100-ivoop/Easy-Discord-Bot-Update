@@ -1,0 +1,31 @@
+{
+  "name": "easy-discord-bot_v2",
+  "version": "1.0.1",
+  "description": "Easy way to make Discord bot",
+  "homepage": "https://github.com/ivan100-ivoop/Easy-Discord-Bot_v2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [
+    "#discord",
+    "#bot",
+    "#frameword",
+    "#easy",
+    "#fast",
+    "#simple"
+  ],
+  "author": "ivan",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "discord.js": "^14.15.2",
+    "express": "^4.19.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.3.5",
+    "ms": "^2.1.3",
+    "yaml": "^2.4.2"
+  }
+}
